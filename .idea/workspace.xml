@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5cab5f2-413c-4bed-9ec0-61d6e8bfd75c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/darlyncr/discountcalculator/DiscountCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darlyncr/temperatureconverter/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darlyncr/temperatureconverter/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/darlyncr/temperatureconverter/TemperatureConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/darlyncr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darlyncr/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/darlyncr/discountcalculator/DiscountCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darlyncr/discountcalculator/DiscountCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/darlyncr/discountcalculator/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darlyncr/discountcalculator/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,6 +45,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/Users/iodac/IdeaProjects/JUnit/src/main/java/com/darlyncr/temperatureconverter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,27 +59,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.darlyncr.temperatureconverter" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.darlyncr.temperatureconverter" />
       <recent name="com.darlyncr.discountcalculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DiscountCalculatorTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.darlyncr.Main" />
-      <module name="JUnit.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.darlyncr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.TemperatureConverterTest">
     <configuration name="DiscountCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -150,12 +143,61 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TemperatureConverterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.darlyncr.temperatureconverter.TemperatureConverterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="TemperatureConverterTest.testConvertCelsiusToFahrenheit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.darlyncr.temperatureconverter.TemperatureConverterTest.testConvertCelsiusToFahrenheit&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TemperatureConverterTest" />
+        <item itemvalue="Gradle.TemperatureConverterTest.testConvertCelsiusToFahrenheit" />
         <item itemvalue="Gradle.DiscountCalculatorTest" />
         <item itemvalue="Gradle.DiscountCalculatorTest.testProductPriceWithDiscountof10" />
         <item itemvalue="Gradle.DiscountCalculatorTest.testProductPriceWithDiscount" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690318871398</updated>
-      <workItem from="1690318872370" duration="7255000" />
+      <workItem from="1690318872370" duration="14017000" />
     </task>
     <servers />
   </component>
@@ -181,6 +223,21 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darlyncr/temperatureconverter/TemperatureConverter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darlyncr/temperatureconverter/TemperatureConverter.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/darlyncr/temperatureconverter/TemperatureConverter.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
